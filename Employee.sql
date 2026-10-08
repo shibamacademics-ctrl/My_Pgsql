@@ -32,3 +32,9 @@ SELECT * FROM Employee WHERE dept IN('IT','HR','Finance');
 --DISTINCT CLAUSE
 SELECT DISTINCT dept FROM Employee
 WHERE salary BETWEEN 40000 AND 60000;
+--ORDER BY
+SELECT * FROM employee ORDER BY fname;
+--LIMIT
+SELECT * FROM employee LIMIT 3;
+--LIKE
+SELECT fname FROM employee WHERE fname LIKE '%i%';
